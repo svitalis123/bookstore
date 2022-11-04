@@ -1,0 +1,10 @@
+body,
+html,
+* {
+  padding: 0.0001px;
+  margin: 0.0001px;
+}
+
+* {
+  box-sizing: border-box;
+}

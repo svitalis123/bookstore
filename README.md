@@ -1,15 +1,13 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# BookStore
 
-> Description the project.
+> Provide Access for millions of clients to access books online
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- React, Redux, JS, CSS, BABEL, jest
 
 ## Live Demo (if available)
 
@@ -18,45 +16,28 @@
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
 ### Prerequisites
+- Code editor e.g VS, SUBLIME
 
 ### Setup
+- Node -v ^8
 
 ### Install
+- React `npx create-react-app .`
+-  `npm i react-router-dom`
 
 ### Usage
-
-### Run tests
-
-### Deployment
+- Import them at the top level
 
 
 
-## Authors
+## Author
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
+- GitHub: [@svitalis123](https://github.com/svitalis123)
+- Twitter: [@WilsonVitalis](https://twitter.com/WilsonVitalis)
+- LinkedIn: [vitalismutwiri](https://linkedin.com/in/vitalismutwiri)
 
 ## Show your support
 
