@@ -1,5 +1,5 @@
-const BOOKADD = 'redux/books/addBook';
-const BOOKREMOVE = 'redux/books/removeBook';
+const BOOKADDED = 'redux/books/addBook';
+const BOOKREMOVED = 'redux/books/removeBook';
 
 const initialState = {
   books: [],
@@ -7,11 +7,11 @@ const initialState = {
 
 export default (state = initialState, action) => {
   switch (action.type) {
-    case BOOKADD:
+    case BOOKADDED:
       return [
         ...state,
       ];
-    case BOOKREMOVE:
+    case BOOKREMOVED:
       return [
         ...state,
       ];
@@ -20,6 +20,6 @@ export default (state = initialState, action) => {
   }
 };
 
-export const addbook = () => ({ type: BOOKADD });
+export const addbook = () => ({ type: BOOKADDED });
 
-export const removebook = () => ({ type: BOOKREMOVE });
+export const removebook = () => ({ type: BOOKREMOVED });
