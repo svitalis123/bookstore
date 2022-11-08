@@ -11,7 +11,7 @@ export default (state = initialState, action) => {
         action.payload,
       ];
     case BOOKREMOVED:
-      return state.filter((arr) => arr.id !== action.payload.id);
+      return state.filter((arr) => arr.id !== action.payload);
     default:
       return state;
   }

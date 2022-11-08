@@ -1,26 +1,16 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
 import Book from './Book';
 import Form from './Form';
 
-const data = [
-  {
-    key: 1,
-    title: 'Morgan',
-    author: 'freeman',
-  },
-  {
-    key: 2,
-    title: 'spiritual welfare',
-    author: 'kaura mwirig',
-  },
-];
-
-const Books = () => (
-  <div>
-    <Book bookData={data} />
-    <button type="button">Remove</button>
-    <Form />
-  </div>
-);
+const Books = () => {
+  const thebooks = useSelector((state) => state.books);
+  return (
+    <div>
+      <Book bookData={thebooks} />
+      <Form />
+    </div>
+  );
+};
 
 export default Books;
