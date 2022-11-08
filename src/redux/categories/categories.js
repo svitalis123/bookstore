@@ -1,4 +1,4 @@
-const STATUSCHECKED = 'redux/categories/statusChecked';
+const STATUSCHECKED = 'bookstore/categories/statusChecked';
 
 const initialState = {
   categories: [],

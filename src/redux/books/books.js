@@ -1,25 +1,22 @@
-const BOOKADDED = 'redux/books/addBook';
-const BOOKREMOVED = 'redux/books/removeBook';
+const BOOKADDED = 'bookstore/books/addBook';
+const BOOKREMOVED = 'bookstore/books/removeBook';
 
-const initialState = {
-  books: [],
-};
+const initialState = [];
 
 export default (state = initialState, action) => {
   switch (action.type) {
     case BOOKADDED:
       return [
         ...state,
+        action.payload,
       ];
     case BOOKREMOVED:
-      return [
-        ...state,
-      ];
+      return state.filter((arr) => arr.id !== action.payload.id);
     default:
       return state;
   }
 };
 
-export const addbook = () => ({ type: BOOKADDED });
+export const addbook = (payload) => ({ type: BOOKADDED, payload });
 
-export const removebook = () => ({ type: BOOKREMOVED });
+export const removebook = (payload) => ({ type: BOOKREMOVED, payload });
