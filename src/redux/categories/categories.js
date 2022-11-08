@@ -1,8 +1,6 @@
 const STATUSCHECKED = 'bookstore/categories/statusChecked';
 
-const initialState = {
-  categories: [],
-};
+const initialState = [];
 
 export default (state = initialState, action) => {
   if (action.type === STATUSCHECKED) {
