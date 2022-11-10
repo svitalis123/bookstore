@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Roboto:wght@300;400;500;700&display=swap');
+
+.book_container {
+  width: 75rem;
+  height: 10.625rem;
+  margin: 2.313rem 6.25rem 0;
+  padding: 2rem 9.188rem 1.625rem 1.688rem;
+  border-radius: 4px;
+  border: solid 1px #e8e8e8;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.book_container_second_holder {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.book_container_article_h2 {
+  height: 1.813rem;
+  margin: 0.188rem 20.188rem 0 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.2px;
+  color: #121212;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 90%;
+}
+
+.book_container_article_h3 {
+  height: 1.188rem;
+  margin: 0.25rem 0 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4386bf;
+}
+
+.book_container_article_p1 {
+  height: 1.125rem;
+  margin: 0 2.438rem 0 0;
+  opacity: 0.5;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+}
+
+.book_container_seconde_div_buttons {
+  display: flex;
+}
+
+.book_container_seconde_div_buttons > button {
+  padding: 0.188rem 0.938rem 0.125rem 0.938rem;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4386bf;
+  background-color: transparent;
+  border: none;
+  transition: text-decoration 0.3s ease-in, color 0.2s ease, opacity 0.3s ease-in;
+}
+
+.execptiom {
+  padding-left: 0.0000001px !important;
+}
+
+.book_container_third_div {
+  display: flex;
+  gap: 2rem;
+}
+
+.book_container_third_div_first_container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  border-right: 1px solid #e8e8e8;
+}
+
+.book_container_third_div_first_container_second_div {
+  margin: 0.063rem 7rem 0 0.688rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+}
+
+.book_container_third_div_first_container_second_div_p {
+  margin: 0.438rem 4.938rem 0.75rem 0.75rem;
+  opacity: 0.5;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.875rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+}
+
+.book_container_third_div_second_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.book_container_third_div_second_container > h3 {
+  margin: 0.063rem 3.625rem 0 3.688rem;
+  width: 100%;
+  opacity: 0.5;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.813rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+}
+
+.book_container_third_div_second_container > p {
+  margin: 0.438rem 0 0.25rem 3.688rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  color: #121212;
+}
+
+.book_container_third_div_second_container > button {
+  margin: 0.75rem 0 0.563rem 3.688rem;
+  padding: 0.438rem 1.188rem 0.5rem 1.375rem;
+  border-radius: 3px;
+  background-color: #0290ff;
+  cursor: pointer;
+  width: 100%;
+  color: #fff;
+  border: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.book_container_third_div_second_container > button:hover {
+  background-color: #0291ffa1;
+}
+
+.book_container_seconde_div_buttons > button:hover {
+  text-decoration: underline;
+  color: #121212;
+  opacity: 0.9;
+}
+
+.book_container_seconde_div_buttons > button:nth-of-type(even) {
+  border-left: 1px solid #e8e8e8;
+  border-right: 1px solid #e8e8e8;
+}

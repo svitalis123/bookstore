@@ -3,9 +3,10 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Books from './components/Books';
 import Categories from './components/Categories';
 import Header from './components/Header';
+import './App.css';
 
 const App = () => (
-  <div>
+  <div className="app_container">
     <BrowserRouter>
       <Header />
       <Routes>
