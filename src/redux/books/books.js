@@ -46,7 +46,7 @@ export const addbook = createAsyncThunk(BOOKADDED, async (payload) => {
         {
           title: payload.title,
           author: payload.author,
-          caregory: payload.category,
+          category: payload.category,
         },
       ],
     ],
